@@ -8,7 +8,7 @@
 #####################################
 
 
-from Crypto.Hash import SHA256
+from Crypto.Hash import MD5
 import time
 import sys
 import binascii
@@ -16,7 +16,7 @@ import binascii
 class User:
     def __init__(self, user_details):
         self.user_details = user_details
-        self.hash = SHA256.new()
+        self.hash = MD5.new()
 
     @property
     def generate_key(self):
@@ -33,4 +33,5 @@ if __name__ == '__main__':
     }
 
     user = User(details)
+    print(len(user.generate_key))
     sys.stdout.write(user.generate_key+"\n")
