@@ -1,8 +1,11 @@
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![author](https://img.shields.io/badge/author-PsychoCoder-red.svg)](https://twitter.com/PsychoCodes)
+
 # AadhaarCrypt
 
 >**:purple_heart: Open Source**
 
-AadhaarCrypt is an API which let users store [Aadhaar Card](https://uidai.gov.in/) information online and offline in a more secure way. Aadhaar Crypt encrypts the aadhaar card data using a private key and returns the encrypted text back to the user which can be stored in place of the actual data on your online repository or database.
+AadhaarCrypt is an API which let users store [Aadhaar Card](https://uidai.gov.in/) information online and offline in a more secure way. Aadhaar Crypt encrypts the aadhaar card data using a private key and returns the encrypted text back to the user which can be stored in place of the actual data in your online databases.
 
 ![banner](https://i.imgur.com/zjeu2EM.png)
 
