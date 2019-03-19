@@ -2,9 +2,16 @@
 
 >**:purple_heart: Open Source**
 
-AadhaarCrypt is an API which let users store Aadhaar information online and offline in a more secure way. Aadhaar Crypt encrypts the aadhaar card data using a private key and returns the encrypted text back to the user which can be stored in place of the actual data on your online repository or database.
+AadhaarCrypt is an API which let users store [Aadhaar Card](https://uidai.gov.in/) information online and offline in a more secure way. Aadhaar Crypt encrypts the aadhaar card data using a private key and returns the encrypted text back to the user which can be stored in place of the actual data on your online repository or database.
 
 ![banner](https://i.imgur.com/zjeu2EM.png)
+
+## Why use AadhaarCrypt
+
+Aadhaar card data is one of the most sensitive piece of information for every citizen of India and there are multiple websites and organisations which takes Aadhaar card number for identification purposes and store them in their online databases, there were incidents in past where aadhaar data was leaked because of vulnerable web applications.
+
+* [Indian state government leaks thousands of Aadhaar numbers](https://techcrunch.com/2019/01/31/aadhaar-data-leak/)
+* [Indane leaked millions of Aadhaar numbers: French security researcher](https://economictimes.indiatimes.com/news/politics-and-nation/indane-leaked-millions-of-aadhaar-numbers-french-security-researcher/articleshow/68058639.cms)
 
 
 ## Usage
