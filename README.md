@@ -9,7 +9,7 @@ AadhaarCrypt is an API which let users store [Aadhaar Card](https://uidai.gov.in
 
 ![banner](https://i.imgur.com/zjeu2EM.png)
 
-## Why use AadhaarCrypt
+## Why use AadhaarCrypt?
 
 Aadhaar card data is one of the most sensitive piece of information for every citizen of India and there are multiple websites and organisations which takes Aadhaar card number for identification purposes and store them in their online databases, there were incidents in past where aadhaar data was leaked because of vulnerable web applications.
 
