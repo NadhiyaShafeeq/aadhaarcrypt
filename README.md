@@ -2,11 +2,12 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-green.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-GPL3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
+**:purple_heart: Open Source**
 # AadhaarCrypt
 
->**:purple_heart: Open Source**
+> **AadhaarCrypt** because most of the developers do not even bother encrypting our sensitive information online. :rage:
 
-AadhaarCrypt is an API which let users store [Aadhaar Card](https://uidai.gov.in/) information online and offline in a more secure way. Aadhaar Crypt encrypts the aadhaar card data using a private key and returns the encrypted text back to the user which can be stored in place of the actual data in your online databases.
+AadhaarCrypt is an API which let users store [Aadhaar Card](https://uidai.gov.in/) information online in secure way. Aadhaar Crypt encrypts the aadhaar card data using a private key and returns the encrypted text back to the user which can be stored in place of the actual data in your online databases.
 
 ## Dependencies
 
