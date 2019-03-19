@@ -1,2 +1,3 @@
-# aadhaarcrypt
-AadhaarCrypt is an API which let users store Aadhaar information in more safe way
+# AadhaarCrypt
+
+AadhaarCrypt is an API which let users store Aadhaar information online and offline in a more safe way.
