@@ -1,5 +1,5 @@
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![author](https://img.shields.io/badge/author-PsychoCoder-red.svg)](https://twitter.com/PsychoCodes)
+[![author](https://img.shields.io/badge/Author-PsychoCoder-red.svg)](https://twitter.com/PsychoCodes)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-green.svg)](https://www.python.org/)
 
 # AadhaarCrypt
 
