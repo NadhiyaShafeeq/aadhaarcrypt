@@ -28,8 +28,8 @@ class User:
 
 if __name__ == '__main__':
     details = {
-        "name" : "Shibli",
-        "email" : "mohdshibli27@gmail.com"
+        "name" : "Dante",
+        "email" : "foo@bar.com"
     }
 
     user = User(details)
