@@ -3,7 +3,9 @@
 [![License](https://img.shields.io/badge/License-GPL3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 **:purple_heart: Open Source**
-# AadhaarCrypt
+
+<h1 align="center">AadhaarCrypt<sub style="color:red">BETA</sub></h1>
+<p align="center"><img src="https://i.imgur.com/8MdzlBl.png" /></p>
 
 > **AadhaarCrypt** because most of the developers do not even bother encrypting our sensitive information online. :rage:
 
@@ -12,9 +14,6 @@ AadhaarCrypt is an API which let users store [Aadhaar Card](https://uidai.gov.in
 ## Dependencies
 
 * `Flask` `Flask cors` `pycrypto`
-
-
-![banner](https://i.imgur.com/zjeu2EM.png)
 
 ## Why use AadhaarCrypt?
 
