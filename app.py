@@ -8,6 +8,10 @@ import argparse
 app = Flask(__name__)
 CORS(app)
 
+@app.errorhandler(404)
+def page_not_found(e):
+    return Response("{\"error\" : \"404 page not found.\"}", mimetype="application/json")
+
 @app.route('/generate-token', methods=["POST", "GET"])
 def generate_token():
     if request.method == "GET":
