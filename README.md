@@ -23,8 +23,53 @@ Aadhaar card data is one of the most sensitive piece of information for every ci
 * [Indian state government leaks thousands of Aadhaar numbers](https://techcrunch.com/2019/01/31/aadhaar-data-leak/)
 * [Indane leaked millions of Aadhaar numbers: French security researcher](https://economictimes.indiatimes.com/news/politics-and-nation/indane-leaked-millions-of-aadhaar-numbers-french-security-researcher/articleshow/68058639.cms)
 
+## Installation
+
+1. Clone the repository
+
+```
+git clone https://github.com/shibli2700/aadhaarcrypt.git
+```
+
+2. run the follwing commands on your command line to install the dependencies.
+
+```
+cd aadhaarcrypt
+python setup.py install
+```
+
+3. Run the server
+```
+python app.py
+```
 
 ## Usage
+
+**Ajax code to generate private key**
+```javascript
+function gettoken(){
+
+  var url =  "http://127.0.0.1:5000/generate-token" //you can add ur own host here
+  params = "{'name' : 'dante', 'email' : 'foo@bar.com'}"; //data to send
+
+  try{
+    var xhttp = new XMLHttpRequest();
+  }catch(e){
+    console.log(e)
+  }
+
+  xhttp.open("POST", url);
+  xhttp.send(params);
+  xhttp.onreadystatechange = function(){
+    if(this.status == 200 && this.readyState == 4){
+      console.log(this.responseText);
+    }
+  }
+}
+
+gettoken();
+```
+
 
 1. **Generate a private key by making the following request**
 
