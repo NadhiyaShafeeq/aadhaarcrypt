@@ -1,6 +1,5 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)<br />
-**:purple_heart: Open Source**
 
 <h1 align="center">AadhaarCrypt<sub style="color:red">BETA</sub></h1>
 <p align="center"><img src="https://i.imgur.com/8MdzlBl.png" /></p>
