@@ -1,7 +1,5 @@
-[![forthebadge](https://forthebadge.com/images/badges/Author-d3f417.svg)](https://forthebadge.com)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-green.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-GPL3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)<br />
 **:purple_heart: Open Source**
 
 <h1 align="center">AadhaarCrypt<sub style="color:red">BETA</sub></h1>
