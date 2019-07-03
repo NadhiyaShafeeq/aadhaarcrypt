@@ -39,6 +39,18 @@ python setup.py install
 python app.py
 ```
 
+4. Open a new session of terminal and fire the Command written Below: parameters (name, email) -> To be feed by you!
+```
+curl -X POST -H "Content-Type: application/json" http://127.0.0.1:5000/generate-token -d "{'name':'dante', 'email':'foo@bar.com'}"
+```
+
+5. You will get the following reponse along with your private key
+
+```json
+{"key": "749ffeed93790ce4720ac5d04d4bcb8d"}
+```
+
+
 ## Usage
 
 **Ajax code to generate private key**
@@ -66,18 +78,7 @@ function gettoken(){
 gettoken();
 ```
 
-
-1. **Generate a private key by making the following request**
-
-```
-curl -X POST -H "Content-Type: application/json" http://127.0.0.1:5000/generate-token -d "{'name':'dante', 'email':'foo@bar.com'}"
-```
-You will get the following reponse along with your private key
-
-```json
-{"key": "749ffeed93790ce4720ac5d04d4bcb8d"}
-```
-2. **Encrypt the data by making the following request**
+1. **Encrypt the data by making the following request**
 
 ```
 POST /encrypt-data HTTP/1.1
@@ -99,7 +100,7 @@ You will get the encrypted data in reponse
 {"encrypted_text": "d29a3eb24a553ebd399daae63bad9703432edc5abc1822efd0e2e1ff74ad15784c45f1e5474593c9b34672b7ddf6a11d86d7d55a951ff24a3bd7628c6e654bed27ab407fcd6120bdab55c82e2b93cc6eff980869c48833b9a599d8262795c29787846567c3d09ea220fb5492d5"}
 ```
 
-3. **Decrypt the data using the following reponse**
+2. **Decrypt the data using the following reponse**
 
 ```
 POST /decrypt-data HTTP/1.1
