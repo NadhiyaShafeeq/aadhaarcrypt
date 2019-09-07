@@ -1,5 +1,6 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)<br />
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fshibli2700%2Faadhaarcrypt.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fshibli2700%2Faadhaarcrypt?ref=badge_shield)
+<br />
 
 <h1 align="center">AadhaarCrypt<sub style="color:red">BETA</sub></h1>
 <p align="center"><img src="https://i.imgur.com/8MdzlBl.png" /></p>
@@ -123,3 +124,7 @@ You will get the decrypted json reponse
 {"decrypted_text": "\"aadhaarno\": \"23-456-123\", \"name\": \"Lucifer\", \"dob\": \"21-09-1997\", \"address\": \"Park Avenue\"}"}
 ```
 ## References
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fshibli2700%2Faadhaarcrypt.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fshibli2700%2Faadhaarcrypt?ref=badge_large)
