@@ -26,7 +26,7 @@ class User:
         self.hash.update(_token_value.encode('utf-8'))
         return binascii.hexlify(self.hash.digest()).decode('utf-8')
 
-if __name__ == '__main__':
+'''if __name__ == '__main__':
     details = {
         "name" : "Dante",
         "email" : "foo@bar.com"
@@ -34,4 +34,4 @@ if __name__ == '__main__':
 
     user = User(details)
     print(len(user.generate_key))
-    sys.stdout.write(user.generate_key+"\n")
+    sys.stdout.write(user.generate_key+"\n")'''

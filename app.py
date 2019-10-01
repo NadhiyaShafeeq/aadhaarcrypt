@@ -1,5 +1,5 @@
 from flask import Flask, render_template, Response, request
-from Engine import card as cardX
+from Engine import card as cardX, user as userX
 import json
 from flask_cors import CORS
 import base64
@@ -23,7 +23,7 @@ def generate_token():
             "name" : data[0],
             "email" : data[1]
         }
-        user = Engine.User(details)
+        user = userX.User(details)
         resp = {
             "key" : user.generate_key
         }
