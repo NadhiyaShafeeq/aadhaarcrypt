@@ -13,7 +13,8 @@ import json
 import binascii
 
 class Card:
-    def __init__(self, key, details):
+
+    def __init__(self, key, details=""):
         self.details = details
         self.iv = Random.new().read(AES.block_size)
         self.key = key
@@ -31,7 +32,7 @@ class Card:
 
     @property
     def encrypt_data(self):
-        _en_data = self.iv + self.aes_obj.encrypt(json.dumps(self.details))
+        _en_data = self.iv + self.aes_obj.encrypt(json.dumps(self.details).encode("utf-8"))
         return binascii.hexlify(_en_data).decode('utf-8').strip()
 
     def decrypt_data(self, ciphertext):
@@ -43,10 +44,11 @@ class Card:
         return data[offset:]
 
 '''if __name__ == '__main__':
+
     key = "7195bb5c30deff29d83ac52b570b8c65"
-    details = {'aadhaarno' : '234-2788-98987','name' : 'mohd shibli','dob' : '27-09-1997'}
-    card = Card(key, str(details))
+    details = {'aadhaarno':'234-2788-98987','name':'mohd shibli','dob':'27-09-1997'}
+    card = Card(key.encode("utf-8"), str(details))
     cipher = card.encrypt_data
-    #print(cipher)
-    #print("-------------------------------------------")
-    print(card.decrypt_data(cipher))'''
+    print(cipher)
+    print("-------------------------------------------")
+    print(Card(key.encode("utf-8")).decrypt_data(cipher))'''

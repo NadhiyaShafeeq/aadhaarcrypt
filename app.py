@@ -1,5 +1,5 @@
 from flask import Flask, render_template, Response, request
-import Engine
+from Engine import card as cardX
 import json
 from flask_cors import CORS
 import base64
@@ -48,7 +48,7 @@ def encrypt_data():
             "dob" : data["dob"],
             "address" : data["address"]
         }
-        card = Engine.Card(key, details)
+        card = cardX.Card(key.encode('utf-8'), str(details))
 
         resp = {"encrypted_text" : card.encrypt_data}
         return Response(json.dumps(resp), mimetype="application/json")
@@ -64,10 +64,8 @@ def decrypt_data():
         data = data.decode('utf-8')
         data = json.loads(data)
         key = data["key"]
-
-        card = Engine.Card(key)
-        print(key)
-        resp = {"decrypted_text" : card.decrypt_data(key, data["data"])}
+        card = cardX.Card(key.encode("utf-8"))
+        resp = {"decrypted_text" : card.decrypt_data(data["data"])}
         return Response(json.dumps(resp), mimetype="application/json")
     else:
         return Response("{\"error\" : \"request not allowed\"}", mimetype="application/json")
